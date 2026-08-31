@@ -1,0 +1,72 @@
+# .project metadata for Open Policy Agent (OPA)
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "open-policy-agent"
+name: "Open Policy Agent (OPA)"
+description: "An open source, general-purpose policy engine"
+type: "project"
+project_lead: "timothyhinrichs" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#help"
+    primary: true
+  - name: "#conftest"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2018-03-29T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/51" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/open-policy-agent/opa"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://www.openpolicyagent.org/"
+
+artwork: "https://landscape.cncf.io/logos/opa.svg"
+
+adopters:
+  path: "https://github.com/open-policy-agent/opa/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "open-policy-agent/opa"
+
+social:
+  twitter: "https://twitter.com/openpolicyagent"
+
+security:
+  policy:
+    path: "https://github.com/open-policy-agent/opa/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/open-policy-agent/opa/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/open-policy-agent/opa/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/open-policy-agent/opa/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/open-policy-agent/opa/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/open-policy-agent/opa/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 85/100
+# Documentation: 94 | License: 90 | Best Practices: 69 | Security: 68
