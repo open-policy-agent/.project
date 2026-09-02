@@ -8,7 +8,9 @@ description: "An open source, general-purpose policy engine"
 type: "project"
 project_lead: "johanfylling"
 slack_channels:
-  - link: "https://slack.openpolicyagent.org/"
+  - name: "#help"
+    link: "https://slack.openpolicyagent.org/"
+    primary: true
 
 maturity_log:
   - phase: "graduated"
