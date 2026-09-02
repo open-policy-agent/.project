@@ -7,8 +7,8 @@ name: "Open Policy Agent (OPA)"
 description: "An open source, general-purpose policy engine"
 type: "project"
 project_lead: "johanfylling"
-# We have our own Slack: https://slack.openpolicyagent.org/
-slack_channels: []
+slack_channels:
+  - link: "https://slack.openpolicyagent.org/"
 
 maturity_log:
   - phase: "graduated"
