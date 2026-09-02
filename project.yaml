@@ -22,7 +22,7 @@ repositories:
 
 website: "https://www.openpolicyagent.org/"
 
-artwork: "https://landscape.cncf.io/logos/opa.svg"
+artwork: "https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/open-policy-agent/stacked/color/opa-stacked-color.svg"
 
 adopters:
   path: "https://github.com/open-policy-agent/opa/blob/main/ADOPTERS.md"
