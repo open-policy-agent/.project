@@ -9,7 +9,6 @@ maintainers:
           - ashutosh-narkar
           - charlieegan3
           - maxsmythe
-          - ritazh
           - sozercan
           - JaydipGabani
           - srenatus
@@ -28,6 +27,7 @@ maintainers:
         managed: false
         members:
           - ctab
+          - ritazh
           - chewong
           - patrick-east
           - willbeason
