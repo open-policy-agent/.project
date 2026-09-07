@@ -1,40 +1,61 @@
 # .project metadata for Open Policy Agent (OPA)
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "open-policy-agent"
 name: "Open Policy Agent (OPA)"
 description: "An open source, general-purpose policy engine"
 type: "project"
-project_lead: "timothyhinrichs" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "johanfylling"
+slack_channels:
   - name: "#help"
+    link: "https://slack.openpolicyagent.org/"
     primary: true
-  - name: "#conftest"
 
 maturity_log:
   - phase: "graduated"
     date: "2018-03-29T00:00:00Z"
     issue: "https://github.com/cncf/toc/issues/51" # TODO: AUTO-DETECTED — please verify
 
-repositories: # TODO: AUTO-DETECTED primary — please verify
+repositories:
   - url: "https://github.com/open-policy-agent/opa"
     primary: true
     # tags: [core, sig-apps] # Optional
 
 website: "https://www.openpolicyagent.org/"
 
-artwork: "https://landscape.cncf.io/logos/opa.svg"
+artwork: "https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/open-policy-agent/stacked/color/opa-stacked-color.svg"
 
 adopters:
   path: "https://github.com/open-policy-agent/opa/blob/main/ADOPTERS.md"
 
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "open-policy-agent/opa"
+package_managers:
+  docker:
+    - "openpolicyagent/opa"
+    - "openpolicyagent/opa-wasm-builder"
+    - "openpolicyagent/proxy_init"
+    - "openpolicyagent/opa-control-plane"
+    - "openpolicyagent/conftest"
+    - "openpolicyagent/kube-mgmt"
+    - "ghcr.io/open-policy-agent/regal"
+    - "ghcr.io/open-policy-agent/kube-mgmt"
+    - "ghcr.io/open-policy-agent/opa-docker-authz"
+    - "openpolicyagent/gatekeeper"
+    - "openpolicyagent/gatekeeper-crds"
+    - "openpolicyagent/gator"
+    - "ghcr.io/open-policy-agent/gatekeeper"
+    - "ghcr.io/open-policy-agent/gatekeeper-crds"
+    - "ghcr.io/open-policy-agent/gator"
+  homebrew:
+    - "opa"
+    - "regal"
+    - "gator"
+  npm:
+    - "@open-policy-agent/opa-wasm"
+    - "@open-policy-agent/opa"
+    - "@open-policy-agent/opa-react"
+    - "@open-policy-agent/ucast-prisma"
 
 social:
   twitter: "https://twitter.com/openpolicyagent"
