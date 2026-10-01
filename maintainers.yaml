@@ -4,15 +4,16 @@ maintainers:
     teams:
       - name: "maintainers"
         members:
-          - timothyhinrichs
-          - anderseknert
-          - ashutosh-narkar
-          - charlieegan3
-          - maxsmythe
-          - sozercan
-          - JaydipGabani
-          - srenatus
-          - tsandall
+          - timothyhinrichs # Apple, all repositories
+          - anderseknert # Apple, opa
+          - ashutosh-narkar # Apple, opa, opa-envoy-plugin
+          - charlieegan3 # Apple, opa
+          - maxsmythe # Google, gatekeeper
+          - sozercan # Microsoft, gatekeeper
+          - JaydipGabani # Microsoft, gatekeeper
+          - srenatus # Apple, opa
+          - tsandall # Apple, all repositories
+          - jalseth # Independent, conftest
       # Unmanaged teams: tracked here for documentation only, excluded
       # from CNCF resource provisioning (mailing lists, service desk,
       # Copilot seats, etc).
